@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="types">
+      <UniqueIdentifier>{521229dc-b1aa-47e2-b5f9-81fe03e8bc92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base">
+      <UniqueIdentifier>{0eac35c4-1210-49cc-bfa3-2ae0ab58cce3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="types\spinlock.cpp">
+      <Filter>types</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="types\spinlock.h">
+      <Filter>types</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="base\macros.h">
+      <Filter>base</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
