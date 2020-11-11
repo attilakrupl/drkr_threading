@@ -109,3 +109,4 @@ ipch/
 *.vspx
 *.opendb
 *.db
+packages/

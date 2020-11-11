@@ -16,8 +16,10 @@ SpinLock::SpinLock()
 
 void SpinLock::Lock()
 {
+    while ( mFlag.test_and_set() );
 }
 
 void SpinLock::Unlock()
 {
+    mFlag.clear();
 }

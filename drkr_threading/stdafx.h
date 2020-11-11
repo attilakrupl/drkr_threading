@@ -9,6 +9,7 @@
 #include <iostream>
 #include <atomic>
 #include <thread>
+#include <mutex>
 
 #include "base/macros.h"
 #include "types/spinlock.h"
